@@ -1,0 +1,11 @@
+Libs utilizadas: csv
+
+Sintaxe Bássica:
+
+from stocsv import Csv_generator
+
+nomes = ['Jurema', 'Pedro'] # Passar uma lista no lugar de nomes
+tels = ['21983059512', '21989431834'] # Passar uma lista formatada da seguinte forma 'DDD + Número'
+
+csv = Csv_generator(nomes, tels) # Instanciar a class
+csv.criar_csv() # Chamar método 'criar_csv()' pra criar o arquivo csv ja formatado.
